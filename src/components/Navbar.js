@@ -49,7 +49,7 @@ setActiveLink(value);
             >
               Home
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#skills"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
@@ -58,7 +58,7 @@ setActiveLink(value);
 
             >
               Skills
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="#projects"
               className={

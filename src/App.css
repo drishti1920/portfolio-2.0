@@ -425,6 +425,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 242px;
 }
 .proj-imgbx::before {
   content: "";
@@ -436,6 +437,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.4s ease-in-out;
 }
 .proj-imgbx:hover::before {
+  height: 100%;
+}
+
+.probject-image{
+  width: 100%;
   height: 100%;
 }
 .proj-txtx {
@@ -457,6 +463,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: white;
 }
 .proj-txtx span {
   font-style: italic;
